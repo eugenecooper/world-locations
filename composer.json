@@ -1,23 +1,32 @@
 {
     "name": "eugenecooper/world-locations",
-    "type": "library",
+    "description": "Allows to retrieve all world's countries, cities and regions",
+    "keywords": [
+        "cities",
+        "countries",
+        "regions",
+        "states",
+        "provinces",
+        "list",
+        "all",
+        "global"
+    ],
+    "homepage": "https://github.com/eugenecooper/world-locations",
     "license": "MIT",
-    "description": "This simple package allows to retrieve all world's countries, a certain country regions and cities, etc. The code is relying on vk.com public API, so if you'll need to make too much requests you should cache results or save them to your database.",
-    "keywords": ["cities","countries","regions","states","provinces","list","all","global"],
     "authors": [
         {
             "name": "Eugene Cooper",
-            "email": "contact@eugenecooper.com"
+            "email": "contact@eugenecooper.com",
+            "role": "Developer"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
+    "require": {
+        "php" : "^5.6|^7.0",
+        "vladkens/VK": "0.9.1"
+    },
     "autoload": {
         "psr-4": {
             "EugeneCooper\\WorldLocations\\": "src"
         }
-    },
-    "require": {
-        "vladkens/VK": "0.1.9"
     }
 }
