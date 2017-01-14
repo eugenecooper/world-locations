@@ -17,6 +17,6 @@
         }
     },
     "require": {
-        "vladkens/vk": "0.1.9"
+        "vladkens/VK": "~0.1"
     }
 }
