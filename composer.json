@@ -10,13 +10,14 @@
             "email": "contact@eugenecooper.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "EugeneCooper\\WorldLocations\\": "src"
         }
     },
     "require": {
-        "vladkens/VK": "~0.1"
+        "vladkens/VK": "0.1.9"
     }
 }
