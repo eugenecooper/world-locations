@@ -22,7 +22,7 @@
     ],
     "require": {
         "php" : "^5.6|^7.0",
-        "vladkens/VK": "0.9.1"
+        "vladkens/vk": "0.1.9"
     },
     "autoload": {
         "psr-4": {
